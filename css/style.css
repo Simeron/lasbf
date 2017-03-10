@@ -124,6 +124,22 @@ ul .dropdown-menu li :hover{
     padding-top: 1vw;
 }
 
+.glyphicon-chevron-left{
+    font-size: 7vw !important;
+}
+
+.glyphicon-chevron-right{
+    font-size: 7vw !important;
+}
+
+.left{
+    width: 8% !important;
+}
+
+.right{
+    width: 20% !important;
+}
+
 /*end of slider styling */
 
 /*start of sidebar styling */
@@ -139,7 +155,7 @@ ul .dropdown-menu li :hover{
 
 #annualReport{
     width: 54%;
-    margin-left: 2.6vw;
+    margin-left: 3.3vw;
     margin-top: 7vw;
 }
 
