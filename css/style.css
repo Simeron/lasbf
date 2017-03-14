@@ -396,7 +396,8 @@ h3{
 #tAndC{
     padding-left: 12vw;
     text-align: justify;
-    padding-right: 7vw
+    padding-right: 8vw;
+    margin-left: -0.5%;
 }
 
 #checkbox{
