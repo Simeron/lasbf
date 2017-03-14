@@ -124,7 +124,7 @@ ul .dropdown-menu li :hover{
     padding-top: 1vw;
 }
 
-/*.glyphicon-chevron-left{
+.glyphicon-chevron-left{
     font-size: 7vw !important;
 }
 
@@ -132,13 +132,10 @@ ul .dropdown-menu li :hover{
     font-size: 7vw !important;
 }
 
-.left{
-    width: 8% !important;
+.fa{
+    margin-top: 12vw;
+    font-size: 11em !important;
 }
-
-.right{
-    width: 20% !important;
-}*/
 
 /*end of slider styling */
 
