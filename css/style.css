@@ -189,7 +189,7 @@ ul .dropdown-menu li :hover{
 #sidebarST{
     /*background-color: #7d3e82;*/
     margin-left: -1.1vw;
-    padding-bottom: 26vw;
+    /*padding-bottom: 26vw;*/
     padding-top: 1.7vw;
 }
 
@@ -224,6 +224,7 @@ ul .dropdown-menu li :hover{
     font-family: 'Kalam', cursive;
     color: #fff;
     margin-top: 1.6vw;
+    font-size: 13px;
 }
 
 .sidebarTextSTAR{
@@ -231,6 +232,10 @@ ul .dropdown-menu li :hover{
     font-family: 'Kalam', cursive;
     color: #fff;
     margin-top: 2vw;
+}
+
+#sidebarST #membershipFormST .col-sm-7{
+    padding-left: 0;
 }
 /*end of styling for sidebar on the second template*/
 
@@ -415,7 +420,7 @@ h3{
 }
 
 #submitButton{
-    padding-left: 8vw;
+    padding-right: 8.7vw;
 }
 
 #requiredLable{
@@ -454,19 +459,19 @@ h3{
 
 /*start of the footer styling */
 #footerNav{
-    display: -webkit-inline-box;
     list-style: none;
     background-color: #385b70;
     margin-right: 0vw;
-    float: right;
+    padding: 0;
 }
 
 #footerNavbar{
     background-color: #385b70;
+    text-align: center;
 }
 
 #footerNav li{
-    margin-right: 2vw;
+    margin-right: 1vw;
 } 
 
 #logoNavFooter{
