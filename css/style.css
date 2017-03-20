@@ -168,6 +168,7 @@ ul .dropdown-menu li :hover{
 }
 #newsLetter{
     width: 70%;
+    margin-left: 1.7vw;
 }
 
 #annualReport{
@@ -443,6 +444,27 @@ h3{
 
 #checkbox{
     padding-left: 12vw;
+}
+
+label.checkbox input[type="checkbox"] {display:none;}
+label.checkbox span {
+  display:inline-block;
+  border:1px solid #7d3e82;
+  width:25px;
+  height:25px;
+  vertical-align:middle;
+  margin:3px;
+  transition:width 0.1s, height 0.1s, margin 0.1s;
+  background-image: url(http://livemysite.com/Eduardo/img/unchecked.png);
+}
+label.checkbox :checked + span {
+  width:27px;
+  height:27px;
+  margin: 2px;
+  background-image: url(http://livemysite.com/Eduardo/img/checked.png);
+  background-size: 70%;
+   background-repeat: no-repeat;
+   background-size: contain;
 }
 
 #submitButtonLongForm{
