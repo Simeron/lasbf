@@ -55,6 +55,26 @@ body{
     color: #fff; 
 }
 
+.nav.navbar-nav .dropdown .dropdown-menu li a{
+    background: unset;
+    background-color: unset !important;
+    background-image: unset;
+}
+.nav.navbar-nav .dropdown > a:focus{
+      background: unset;
+      background-color: #7d3e82 !important;
+      background-image: unset;
+}
+
+.nav.navbar-nav .dropdown .dropdown-menu li:hover{
+    width: 100%;
+    background-color: #cf90db !important;
+}
+
+.nav.navbar-nav .dropdown .dropdown-menu li:hover a{
+    color: white !important;
+}
+
 .container-fluid{
     background-color: #385b70;   
 }
