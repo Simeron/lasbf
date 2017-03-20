@@ -430,10 +430,10 @@ h3{
 }
 
 #tAndC{
-    padding-left: 12vw;
+    /*padding-left: 12vw;*/
     text-align: justify;
-    padding-right: 8vw;
-    margin-left: -0.5%;
+    padding-right: 8.7vw;
+    /*margin-left: -0.5%;*/
 }
 
 #checkbox{
@@ -441,7 +441,13 @@ h3{
 }
 
 #submitButtonLongForm{
-    padding-left: 16vw;
+    padding-right: 8.6vw;
+}
+
+.btn.pull-right{
+    border-radius: 0;
+    background-color: #7d3e82;
+    color: #fff;
 }
 
 /*end of form styling*/
