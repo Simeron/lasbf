@@ -628,6 +628,7 @@ label.checkbox :checked + span {
         margin-top: 1vw;
     }
 
+/*start of all the sidebar edits*/
     #sidebar {
         display: inline-flex;
         padding-bottom: 3vw;
@@ -655,6 +656,21 @@ label.checkbox :checked + span {
     #responsiveRight{
         margin-right: 4vw;
     }
+/*end of all the sidebar edits*/
+
+/*start of second sidebar edits */
+    #newsLetterImgST, #annualReportImgST, #membershipFormImgST {
+        width: 17% !important;
+    }
+
+    .sidebarTextST {
+        text-align: center;
+        font-size: 3vw;
+    }
+/*end of second sidebar edits   */
+    #logoInFooter {
+        width: 40%;
+        }
 }
 /*end of responsive styling for top nav bar*/
 /*end of the responsive code*/
