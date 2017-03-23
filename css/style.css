@@ -124,6 +124,36 @@ ul .dropdown-menu li :hover{
     background-color:#7d3e82;
 }
 
+/*start - for the hamburger*/
+.navbar-toggle {
+    float: left !important;
+    margin-left: 3vw;
+    border-radius: 0px !important;
+    background-color: #385b70 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff !important;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px !important;
+}
+
+.navbar-default {
+  box-shadow: none !important;
+  background-color: #fff !important;
+  border-color: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 24px !important;
+    height: 4px !important;
+    border-radius: 0px !important;
+}
+
+/*end - for the hamburger*/
 /*end of nav styling */
 
 /*start of slider styling*/
@@ -442,9 +472,7 @@ h3{
     /*margin-left: -0.5%;*/
 }
 
-#checkbox{
-    padding-left: 12vw;
-}
+
 
 label.checkbox input[type="checkbox"] {display:none;}
 label.checkbox span {
@@ -587,6 +615,45 @@ label.checkbox :checked + span {
 @media only screen and (max-width: 990px) {
     li{
         margin-right: 1vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container-fluid {
+        background-color: #fff;
+    }
+
+    #logo, img {
+        width: 60vw;
+        margin-top: 1vw;
+    }
+
+    #sidebar {
+        display: inline-flex;
+        padding-bottom: 3vw;
+    }
+
+    #newsLetter {
+        width: 64%;
+    }
+
+    #annualReport {
+        width: 38%;
+        margin-left: 9.3vw;
+        margin-top: 1vw;
+    }
+
+    .sidebarText {
+        text-align: left;
+        font-size: 7vw;
+    }
+
+    .responsiveSide{
+        margin-left: 8vw !important;
+    }
+
+    #responsiveRight{
+        margin-right: 4vw;
     }
 }
 /*end of responsive styling for top nav bar*/
