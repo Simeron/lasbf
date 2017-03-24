@@ -591,6 +591,14 @@ label.checkbox :checked + span {
 /*start of the responsive code */
 
 @media only screen and (max-width: 765px) {
+
+    .navbar {
+        margin-bottom: 0 !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff !important;
+    }
     .col-sm-6 {
         width: 100%;
     }
