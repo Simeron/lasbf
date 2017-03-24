@@ -17,6 +17,33 @@ body{
     margin-top: 1vw;
 }
 
+.purpleBox{
+    background-color:#7d3e82;
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+    width: 42%;
+    float: right;
+    margin-bottom: 0.5vw;
+    margin-top: 1vw;
+}
+
+#purpleBox2{
+    width: 48%;
+    padding-bottom: 0.1vw;
+    margin-bottom: 1vw;
+    margin-top: 0;
+}
+.topIcons{
+    width: 2vw;
+    margin-top: 0;
+}
+
+.topText{
+    font-family: 'Kalam', cursive;
+    color: #fff;
+    margin-top: 0.3vw;
+}
+
 #headOptions{
     float: right;
     /*position: absolute;*/
@@ -590,6 +617,132 @@ label.checkbox :checked + span {
 
 /*start of the responsive code */
 
+@media only screen and (max-width: 1390px){
+    #responsiveMenu{
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 1340px){
+    #slider{
+        margin-top: -2%;
+        margin-right: -0.1%;
+    }
+}
+
+@media only screen and (max-width: 1318px){
+    #sliderSection{
+        margin-right: -0.1%;
+    }
+}
+
+@media only screen and (max-width: 1222px){
+    #myCarousel{
+        margin-right: -0.8vw;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .docIcon1 {
+        margin-left: -4px;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .docIcon1 {
+        margin-left: -4px !important;
+    }
+
+    #sliderContainer{
+        margin-top: 2vw;
+        margin-left: -4vw;
+    }
+}
+
+@media only screen and (max-width: 1029px){
+    #sliderSidebar {
+        margin-top: -2.1vw;
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .purpleBox{
+        width: 52%;
+    }
+    #purpleBox2{
+        width: 60%;
+    }
+
+    .docIcon1 {
+        width: 35%;
+        margin-left: 0;
+    }
+
+    .docIcon {
+        width: 16%;
+    }
+
+    .pdfIcon {
+        width: 16%;
+    }
+
+    #pdfIconSingle {
+        width: 35%;
+    }
+
+    .purpleText {
+        margin-left: -3.9vw;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .purpleBox{
+        width: 71%;
+    }
+    #purpleBox2{
+        width: 81%;
+    }
+
+    #sliderSidebar {
+        margin-top: -2.3vw;
+    }
+
+    .fa {
+        margin-top: 12vw;
+        font-size: 7em !important;
+    }
+
+    .docGoesHere {
+        display: -webkit-inline-box;
+        background-color: #7d3e82;
+        padding-bottom: 0.4vw;
+        width: 36.5% !important;
+    }
+
+    .docGoesHereSingle {
+        display: -webkit-inline-box;
+        background-color: #7d3e82;
+        padding-bottom: 0.4vw;
+        width: 31% !important;
+    }
+
+    #sliderContainer {
+        margin-top: 2vw;
+        margin-left: -13vw;
+    }
+}
+
+@media only screen and (max-width: 899px){
+    #sliderSidebar {
+        margin-top: -2.7vw;
+    }
+
+    #sliderContainer {
+        margin-top: 2vw;
+        margin-left: -7vw;
+    }
+}
+
 @media only screen and (max-width: 765px) {
 
     .navbar {
@@ -634,6 +787,72 @@ label.checkbox :checked + span {
 
     #bottomRow{
         background-color: #385b70;
+    }
+
+    #sliderContainer {
+        margin-top: 2vw;
+        margin-left: 0vw;
+    }
+
+    #requiredLable {
+        text-align: left;
+        padding-left: 2.7vw;
+    }
+
+    #submitButton {
+        padding-right: 15.7vw;
+    }
+
+    #sideBarCol{
+        padding-left: 3vw;
+    }
+
+    #tAndC {
+        text-align: justify;
+        padding-right: 14.7vw;
+        margin-left: -0.5%;
+    }
+
+    .purpleTextUpdate {
+        font-size: initial;
+    }
+
+    .purpleTextJoinNow {
+        font-size: inherit;
+    }
+
+    #sliderImageST {
+        margin-top: 2vw;
+    }
+}
+
+@media only screen and (max-width: 610px){
+    .docGoesHere {
+        display: -webkit-inline-box;
+        background-color: #7d3e82;
+        padding-bottom: 0.4vw;
+        width: 48.5% !important;
+    }
+
+    .docGoesHereSingle {
+        display: -webkit-inline-box;
+        background-color: #7d3e82;
+        padding-bottom: 0.4vw;
+        width: 48.5% !important;
+        margin-bottom: 1vw;
+    }
+
+    #fourthBox {
+        margin-left: 1.2%; 
+    }
+
+    .btn.pull-right {
+        margin-right: 8vw;
+    }
+
+    #requiredLable {
+        text-align: left;
+        padding-left: 3.7vw;
     }
 }
 
@@ -739,4 +958,12 @@ label.checkbox :checked + span {
         }
 }
 /*end of responsive styling for top nav bar*/
+
+@media only screen and (max-width: 329px) {
+    .fa {
+        margin-top: 12vw;
+        font-size: 4em !important;
+    }
+}
+
 /*end of the responsive code*/
