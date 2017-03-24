@@ -132,7 +132,7 @@ ul .dropdown-menu li :hover{
     background-color: #385b70 !important;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar .whiteStrip{
     background-color: #fff !important;
 }
 
@@ -543,6 +543,42 @@ label.checkbox :checked + span {
 #bottomNav{
     background-color: #385b70;
 }
+
+#navFooter{
+    margin-bottom: 0;
+    border: 0;
+    min-height: 0;
+}
+
+#footerContainer{
+    float: right;
+    margin-right: 5vw;
+}
+
+.bottomNavBar{
+    margin-right: 0;
+}
+/*start of responsive bottom nav*/
+#hamburger{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footerBar{
+    background-color: #385b70;
+}
+
+.navbar-toggle {
+    float: left !important;
+    margin-left: 3vw;
+    border-radius: 0px !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar, #blueStrip {
+    background-color: #385b70 !important;
+}
+/*end of responsive bottom nav*/
 /*end of footer styling */
 
 .no-gutters {
@@ -659,13 +695,35 @@ label.checkbox :checked + span {
 /*end of all the sidebar edits*/
 
 /*start of second sidebar edits */
-    #newsLetterImgST, #annualReportImgST, #membershipFormImgST {
-        width: 17% !important;
+    #newsLetterImgST {
+        width: 20% !important;
+        margin-left: 5vw;
     }
 
+   #annualReportImgST, #membershipFormImgST{
+       width: 17% !important;
+       margin-left: 5vw;
+   } 
+
     .sidebarTextST {
-        text-align: center;
-        font-size: 3vw;
+        text-align: right;
+        font-size: 8vw;
+        margin-top: -13.4vw;
+        margin-right: 15vw;
+    }
+
+    .responsiveText{
+        margin-top: -17vw;
+    }
+
+    #newsLetterST{
+        padding-bottom: 3vw;
+        padding-top: 3vw;
+    }
+
+    #membershipFormImgST, #annualReportImgST{
+        padding-top: 3vw;
+        padding-bottom: 6vw;
     }
 /*end of second sidebar edits   */
     #logoInFooter {
