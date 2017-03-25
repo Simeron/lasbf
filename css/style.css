@@ -879,6 +879,27 @@ label.checkbox :checked + span {
     li{
         margin-right: 1vw;
     }
+
+    #tAndC {
+        text-align: justify;
+        margin-left: -0.2% !important;
+        padding-right: 0 !important;
+    }
+
+    #onlineIcon {
+        width: 31%;
+        margin-left: 1vw;
+    }
+
+    .sidebarTextST {
+        font-size: 12px;
+        margin-left: -1vw;
+    }  
+
+    #newsLetterImgST, #annualReportImgST, #membershipFormImgST {
+        margin-left: inherit;
+        width: 2vw !important;
+    } 
 }
 
 @media only screen and (max-width: 767px) {
@@ -958,6 +979,62 @@ label.checkbox :checked + span {
         }
 }
 /*end of responsive styling for top nav bar*/
+
+@media only screen and (max-width: 475px) {
+    #onlineIcon {
+        width: 40%;
+        margin-left: -2vw !important;
+    }
+
+@media only screen and (max-width: 630px) {
+    #onlineIcon {
+        width: 41%;
+        margin-left: -2vw;
+    }
+
+    .purpleTextUpdate {
+        font-family: 'Kalam', cursive;
+        text-align: center;
+        padding-top: 2.3vw;
+        margin-left: -6vw;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 714px) {
+    #onlineIcon {
+        width: 40%;
+        margin-left: -1vw;
+    }
+
+    .purpleTextUpdate {
+        font-family: 'Kalam', cursive;
+        text-align: center;
+        padding-top: 2.3vw;
+        margin-left: -6vw;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .purpleTextJoinNow {
+        margin-left: -9vw;
+    }
+
+    #onlineIcon {
+        width: 29%;
+        margin-left: -1vw;
+    }
+
+    .purpleTextUpdate {
+        margin-left: -11vw;
+        font-size: 12px !important;
+    }
+
+    #sideBarCol {
+        padding-left: 6vw;
+    }
+}
 
 @media only screen and (max-width: 329px) {
     .fa {
