@@ -371,6 +371,15 @@ h3{
     margin-bottom: 1vw;
 }
 
+.docGoesHereJoin{
+    display: -webkit-inline-box;
+    background-color: #7d3e82;
+    padding-bottom: 0.4vw;
+    width: 27.5% !important;
+    margin-left: 1.2vw;
+    margin-bottom: 1vw;
+}
+
 .docGoesHereSingle{
     display: -webkit-inline-box;
     background-color: #7d3e82;
@@ -1118,23 +1127,11 @@ label.checkbox :checked + span {
     #largeBox2{
         width: 35.333333% !important;
     }
-}
 
-/*start of the min-widths*/
-
-@media only screen and (min-width: 768px) {
-    .hidden-md{
-        display: none !important;
-    }
-
-    #largeBox{
-        display: none !important;
-    }
-
-    #largeBox2{
-        display: none !important;
+    .docGoesHereJoin{
+        width: 59.5% !important;
     }
 }
-/*end of the min-widths*/
+
 
 /*end of the responsive code*/
