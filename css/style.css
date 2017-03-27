@@ -741,6 +741,10 @@ label.checkbox :checked + span {
         margin-top: 2vw;
         margin-left: -7vw;
     }
+
+    .sidebarTextSmall{
+        padding-left: 3vw;
+    }
 }
 
 @media only screen and (max-width: 765px) {
@@ -801,10 +805,6 @@ label.checkbox :checked + span {
 
     #submitButton {
         padding-right: 15.7vw;
-    }
-
-    #sideBarCol{
-        padding-left: 3vw;
     }
 
     #tAndC {
@@ -930,7 +930,8 @@ label.checkbox :checked + span {
 
     .sidebarText {
         text-align: left;
-        font-size: 7vw;
+        font-size: 6vw;
+        margin-top: 4vw;
     }
 
     .responsiveSide{
@@ -1022,7 +1023,7 @@ label.checkbox :checked + span {
     }
 
     #onlineIcon {
-        width: 29%;
+        width: 34%;
         margin-left: -1vw;
     }
 
@@ -1030,16 +1031,39 @@ label.checkbox :checked + span {
         margin-left: -11vw;
         font-size: 12px !important;
     }
-
-    #sideBarCol {
-        padding-left: 6vw;
-    }
 }
 
 @media only screen and (max-width: 329px) {
     .fa {
         margin-top: 12vw;
         font-size: 4em !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #annualReport {
+        width: 55%;
+    }
+
+    .docGoesHere {
+        width: 75.5% !important;
+    }
+
+    .docGoesHereSingle {
+        width: 65.5% !important;
+    }
+
+    .btn.pull-right {
+        margin-right: 3vw;
+        margin-top: -8vw;
+    }
+
+    #submitButtonLongForm{
+        margin-top: -5vw;
+    }
+
+    .sidebarTextSmall {
+        padding-left: 7vw;
     }
 }
 
