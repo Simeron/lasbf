@@ -185,6 +185,10 @@ ul .dropdown-menu li :hover{
 
 /*start of slider styling*/
 
+#slider{
+    display: inline;
+}
+
 #sliderSidebar{
     margin-top: -1.5vw; 
 }
@@ -578,7 +582,7 @@ label.checkbox :checked + span {
 }
 
 #footerContainer{
-    float: right;
+    float: left;
     margin-right: 5vw;
 }
 
@@ -744,6 +748,12 @@ label.checkbox :checked + span {
 
     .sidebarTextSmall{
         padding-left: 3vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .purpleBox {
+        margin-top: 0 !important; 
     }
 }
 
@@ -978,6 +988,9 @@ label.checkbox :checked + span {
     #logoInFooter {
         width: 40%;
         }
+    #largeBox2 .purpleBox, #largeBox .purpleBox{
+        width: 100% !important;
+    }
 }
 /*end of responsive styling for top nav bar*/
 
@@ -1106,5 +1119,22 @@ label.checkbox :checked + span {
         width: 35.333333% !important;
     }
 }
+
+/*start of the min-widths*/
+
+@media only screen and (min-width: 768px) {
+    .hidden-md{
+        display: none !important;
+    }
+
+    #largeBox{
+        display: none !important;
+    }
+
+    #largeBox2{
+        display: none !important;
+    }
+}
+/*end of the min-widths*/
 
 /*end of the responsive code*/
