@@ -1065,6 +1065,46 @@ label.checkbox :checked + span {
     .sidebarTextSmall {
         padding-left: 7vw;
     }
+
+    #purpleBox2 {
+        width: 100%;
+        float: none;
+        margin-top: 1vw;
+    }
+
+    .purpleBox {
+        width: 100%;
+        float: none;
+    }
+
+    .smallScreen{
+        padding-left: 1vw !important;
+        padding-right: 1vw !important;
+        margin-top: 4vw;
+    }
+
+    .buttonNav{
+        padding-left: 5% !important;
+        padding-right: 1% !important;
+    }
+
+    .topIcons {
+        width: 5vw;
+    }
+
+    .topText {
+        margin-left: 6.4vw;
+        font-size: 8px;
+        margin-top: -5vw;
+    }
+
+    #largeBox{
+        width: 38.333333% !important; 
+    }
+
+    #largeBox2{
+        width: 35.333333% !important;
+    }
 }
 
 /*end of the responsive code*/
