@@ -1053,6 +1053,35 @@ label.checkbox :checked + span {
         margin-left: -11vw;
         font-size: 12px !important;
     }
+
+    .docGoesHereJoin {
+        width: 48.5% !important;
+    }
+
+    .topText {
+        margin-top: -3.7vw;
+        font-size: 8px;
+        margin-left: 6vw;
+        padding-right: 0 !important;
+    }
+
+    .topIcons {
+        width: 5vw;
+        margin-top: 2vw;
+    }
+
+    .buttonNav{
+        padding-left: 0;
+        padding-right: 0 !important;
+    }
+
+    #largeBox, #largeBox2{
+       padding-left: 0 !important;
+       padding-right: 0 !important; 
+       margin-right: 8vw;
+       margin-top: 3vw;
+       margin-left: -6vw;
+    }
 }
 
 @media only screen and (max-width: 329px) {
