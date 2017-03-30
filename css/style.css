@@ -641,6 +641,13 @@ label.checkbox :checked + span {
         margin-top: -2%;
         margin-right: -0.1%;
     }
+
+    #sliderImageST {
+        width: 100%;
+        margin-left: -6vw;
+        margin-top: 0vw;
+        padding-top: 3vw;
+    }
 }
 
 @media only screen and (max-width: 1318px){
@@ -670,6 +677,11 @@ label.checkbox :checked + span {
         margin-top: 2vw;
         margin-left: -4vw;
     }
+
+    #sliderImageST {
+        margin-left: 0vw;
+        padding-top: 1vw;
+    }
 }
 
 @media only screen and (max-width: 1029px){
@@ -693,6 +705,7 @@ label.checkbox :checked + span {
 
     .docIcon {
         width: 16%;
+        margin-left: -0.8vw;
     }
 
     .pdfIcon {
@@ -706,6 +719,12 @@ label.checkbox :checked + span {
     .purpleText {
         margin-left: -3.9vw;
     }
+
+    #onlineIcon {
+        width: 34%;
+        margin-left: 0.4vw;
+    }
+
 }
 
 @media only screen and (max-width: 991px){
@@ -741,7 +760,16 @@ label.checkbox :checked + span {
 
     #sliderContainer {
         margin-top: 2vw;
-        margin-left: -13vw;
+        margin-left: -15vw;
+    }
+
+    #sliderImageST {
+        margin-left: 2vw !important;
+        padding-top: 1vw;
+    }
+
+    .docGoesHereJoin {
+        width: 34.5% !important;
     }
 }
 
@@ -842,6 +870,14 @@ label.checkbox :checked + span {
 
     #sliderImageST {
         margin-top: 2vw;
+        margin-left: -1vw !important;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #onlineIcon {
+        width: 40% !important;
+        margin-left: -2vw !important;
     }
 }
 
@@ -919,6 +955,13 @@ label.checkbox :checked + span {
         margin-left: inherit;
         width: 2vw !important;
     } 
+}
+
+@media only screen and (max-width: 767px) {
+    #sliderImageST {
+        margin-left: 6vw !important;
+        padding-top: 1vw;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -1003,11 +1046,45 @@ label.checkbox :checked + span {
 }
 /*end of responsive styling for top nav bar*/
 
+@media only screen and (max-width: 575px) {
+    .purpleTextUpdate {
+        margin-left: -8vw;
+    } 
+
+    .docGoesHereJoin {
+        width: 38.5% !important;
+    }   
+}
+
+@media only screen and (max-width: 530px) {
+    .purpleTextUpdate {
+        margin-left: -9vw !important;
+    } 
+}
+
+@media only screen and (max-width: 530px) {
+    .docGoesHereJoin {
+        width: 41.5% !important;
+    } 
+
+    .docGoesHereJoin {
+        width: 41.5% !important;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .docGoesHereJoin {
+        width: 53.5% !important;
+    }
+}
+
 @media only screen and (max-width: 475px) {
     #onlineIcon {
         width: 40%;
         margin-left: -2vw !important;
     }
+
+}
 
 @media only screen and (max-width: 630px) {
     #onlineIcon {
@@ -1054,10 +1131,6 @@ label.checkbox :checked + span {
         font-size: 12px !important;
     }
 
-    .docGoesHereJoin {
-        width: 48.5% !important;
-    }
-
     .topText {
         margin-top: -3.7vw;
         font-size: 8px;
@@ -1081,6 +1154,28 @@ label.checkbox :checked + span {
        margin-right: 8vw;
        margin-top: 3vw;
        margin-left: -6vw;
+    }
+
+    .docGoesHere {
+        width: 67.5% !important;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .docGoesHereSingle {
+        width: 61.5% !important;
+    }
+
+    .btn.pull-right {
+        margin-right: 8vw;
+        margin-top: -12vw;
+    }
+
+    .docIcon {
+        width: 16%;
+        margin-left: 2.2vw;
     }
 }
 
